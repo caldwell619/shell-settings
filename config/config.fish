@@ -28,7 +28,7 @@ alias gb="git branch -v"
 alias gf="git fetch"
 
 function gp
-    git push origin `git rev-parse --abbrev-ref HEAD`
+    git push origin (git rev-parse --abbrev-ref HEAD)
 end
 
 alias auth="chmod +x"
