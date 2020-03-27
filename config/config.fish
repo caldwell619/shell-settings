@@ -70,10 +70,12 @@ function goto
 end
 
 function cd
-  builtin cd "$argv" && ls
+    if [ -z "$argv" ]; # No arguments
+            cd ~
+    else
+        builtin cd "$argv" && ls
+    end
 end
-
-
 
 ##################################### 
 ########   Development       ########
