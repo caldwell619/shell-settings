@@ -16,6 +16,7 @@ source ./scripts/tools/git.sh
 source ./scripts/tools/nvm.sh
 source ./scripts/tools/vs-code.sh
 source ./scripts/tools/aws-cli.sh
+source ./scripts/tools/graphiql.sh
 
 source ./scripts/shell/fish.sh
 source ./scripts/shell/copy-config.sh
