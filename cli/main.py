@@ -19,7 +19,7 @@ tools_to_install_prompt = [
       },
       {
         'name': 'GitHub SSh Keygen',
-        'value': 'github.sh'
+        'value': 'github-ssh.sh'
       },
       {
         'name': 'GraphiQL',
