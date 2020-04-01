@@ -10,8 +10,9 @@ Color_Off="\033[0m"    # Text Reset
 
 
 printf "\n\n$BICyan$( echo 'Creating an ssh key for GitHub' )$Color_Off"
+printf "\n\n"
 
-read -p "\nWhat is the email you want to associate with the key? ->  " email
+read -p "What is the email you want to associate with the key? ->  " email
 printf "\n\nWhen you're prompted to 'Enter a file in which to save the key,' press Enter. This accepts the default file location.\n\n"
 ssh-keygen -t rsa -b 4096 -C $email
 echo

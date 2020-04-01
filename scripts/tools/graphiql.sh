@@ -10,5 +10,6 @@ Color_Off="\033[0m"    # Text Reset
 
 
 printf "\n\n$BICyan$( echo Installing Graphiql )$Color_Off"
+printf "\n\n"
 
 brew cask install graphiql

@@ -38,4 +38,4 @@ omf install nvm
 
 
 # Sourcing the new env for fish
-source ./scripts/copy-config.sh
+source ./scripts/shell/copy-config.sh
