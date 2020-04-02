@@ -37,6 +37,10 @@ tools_to_install_prompt = [
         'name': 'VS Code',
         'value': 'vs-code.sh'
       },
+      {
+        'name': 'Yarn',
+        'value': 'yarn.sh'
+      },
     ]
   }
 ]
